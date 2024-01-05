@@ -1,0 +1,238 @@
+@media (max-width:678px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    /*======== margin =======*/
+    .nav {
+        margin-left: 0px;
+    }
+
+    .main {
+        margin-left: 0px;
+    }
+
+    .p2 {
+        margin-left: 0px;
+    }
+
+    .hireme {
+        margin-left: 100px;
+    }
+
+    .showmore {
+        margin-left: 100px;
+    }
+
+    .aboutus {
+        margin-left: 100px;
+        height: 800px;
+
+    }
+
+    .contact {
+        margin-left: 20px;
+    }
+
+    .grid {
+        justify-content: left;
+    }
+
+
+
+    .contact b {
+        padding-left: 74px;
+    }
+    .lp{
+        margin-left: 30px;
+    }
+
+
+
+    .lp img {
+        width: 600px;
+        height: 700px;
+        float: left;
+    }
+
+    /*====== margin end =====*/
+    /* a {
+        display: none;
+    } */
+
+    #menuicon {
+        display: block;
+        font-size: 30px;
+        font-weight: 600;
+        color: #B48152;
+    }
+    #closeicon{
+        font-size: 30px;
+        font-weight: 600;
+        color: #B48152
+
+    }
+
+    .main {
+        height: 1150px;
+        justify-content: space-around;
+    }
+
+    .bgc {
+        left: 125px;
+        bottom: 97px;
+
+    }
+
+    .bdr {
+        left: 80px;
+        top: 700px;
+
+    }
+
+    .main>img {
+        left: -603px;
+        top: 438px;
+    }
+
+    .p2 {
+        margin-top: 1350px;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .plus {
+        border-bottom: 2px solid #0DB760;
+        padding-left: 250px;
+    }
+
+    .hireme {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .showmore img {
+        visibility: hidden;
+    }
+
+    .items {
+        flex-direction: column;
+        margin-left: 75px;
+        gap: 20px;
+    }
+
+    /*====== buttons section ======*/
+
+    #btn9 {
+        margin-left: 169px;
+    }
+
+    #btn3 {
+        margin-left: 200px;
+    }
+
+    #btn5 {
+        margin-left: 200px;
+    }
+
+    #btn7 {
+        margin-left: 200px;
+    }
+
+    #btn8 {
+        margin-left: 220px;
+    }
+
+    #btn1 {
+        margin-left: 185px;
+    }
+    /*====== button section end====== */
+    /*======= footer section ======*/
+    .footer {
+        flex-direction: column;
+        align-items: first baseline;
+        margin-left: 200px;
+        gap: 20px;
+        height: 200px;
+    }
+    .li{
+        width: 40px;
+        height: 40px;
+    }
+    .li i{
+        /* padding: 10px; */
+        position: relative;
+        left: 4px;
+        top: 5px;
+        
+    }
+    .iic i{
+        padding: 0px;
+        position: relative;
+        right: -18px;
+        top: 16px;
+        width: 17px;
+
+    }
+    /*====== bold text =====*/
+     b{
+        font-size: 30px;
+    }
+    .first b{
+        font-size: 30px;
+    }
+    .text b{
+        font-size: 30px;
+    }
+    .aboutus b{
+        font-size: 30px;
+        margin-left: 108px;
+        /* padding-left:20px ; */
+        /* text-align: center; */
+    }
+    .asdf{
+        margin-left: 108px;
+    }
+    .contact b{
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    /*====== brown buttons ======*/
+    #btn4{
+        margin-left:120px ;
+    }
+    #btn6{
+        margin-left: 120px;
+    }
+    /* responsive navbar */
+    ul{
+        position: absolute;
+        left: 0;
+        top: 100px;
+        left: -800px;
+        flex-direction: column;
+        /* background-color: whitesmoke; */
+        width: 100%;
+        transition: all 0.4s ease;
+        
+    }
+    li{
+        text-align: center;
+        margin: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0px;
+    }
+    #check:checked ~ #iconss #menuicon{
+        display: none;
+    }
+    #check:checked ~ #iconss #closeicon{
+        display: block;
+    }
+    .inner{
+        margin-top: 100px;
+    }
+    .main{
+        margin-top: 150px;
+    }
+}
