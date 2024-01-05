@@ -484,7 +484,8 @@ b span {
 }
 hr{
     width: 1000px;
-    margin: auto;
+    margin: 50px auto;
+    margin-bottom: 0px;
 }
 /*====== responsive navbar =====*/
 #closeicon{
